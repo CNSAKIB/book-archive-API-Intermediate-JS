@@ -17,6 +17,7 @@ const searchResult = () => {
         showResult.textContent = '';
         const displayTotalFound = document.getElementById('total-result');
         displayTotalFound.textContent = '';
+        document.getElementById('unknown-search').style.display = 'none';
         document.getElementById('empty-feild').style.display = 'block'
     }
     else {
